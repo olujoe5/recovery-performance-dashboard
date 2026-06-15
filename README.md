@@ -89,7 +89,7 @@ recovery-performance-dashboard/
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/recovery-performance-dashboard.git
+git clone https://github.com/olujoe5/recovery-performance-dashboard.git
 cd recovery-performance-dashboard
 
 # 2. Install dependencies
