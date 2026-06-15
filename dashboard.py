@@ -20,7 +20,7 @@ st.set_page_config(
 
 # ── Synthetic but realistic data ──────────────────────────────────────────────
 random.seed(42)
-estates = ["MKH Shopping Mall", "Chelmsford City", "MKH City"]
+estates = ["Shopping Mall", "Hemsford City", "MKH City"]
 
 def generate_accounts():
     names = [
@@ -53,7 +53,7 @@ df = generate_accounts()
 trend_df = generate_weekly_trend()
 
 # ── Sidebar ───────────────────────────────────────────────────────────────────
-st.sidebar.image("https://img.shields.io/badge/Legal%2FRecovery-Dashboard-16a34a?style=for-the-badge", use_column_width=True)
+st.sidebar.image("https://img.shields.io/badge/Recovery-Dashboard-16a34a?style=for-the-badge", use_column_width=True)
 st.sidebar.markdown("### 🔍 Filters")
 selected_estate = st.sidebar.multiselect("Estate", estates, default=estates)
 risk_filter = st.sidebar.multiselect("Risk Level", ["🔴 High", "🟡 Medium", "🟢 Low"], default=["🔴 High", "🟡 Medium", "🟢 Low"])
